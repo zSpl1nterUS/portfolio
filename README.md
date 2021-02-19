@@ -4,3 +4,10 @@ My first portfolio on development projects, I intend to learn Softawre engineeri
 ## Tarefas
 
 O controle das tarefas desse projeto será realizado no GitHub
+
+## Ícones
+
+:package: Nova funcionalidade
+:up: Atualização
+:beatle: Correção de Bug
+:checkered_flagR elease
