@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Julee
+- Font Author: Copyright (c) 2011, Julian Tunni (jotadejulian@hotmail.com), with Reserved Font Name "Julee"
+- Font Source: http://fonts.gstatic.com/s/julee/v10/TuGfUVB3RpZPQ6ZLodgzydtk.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL)
