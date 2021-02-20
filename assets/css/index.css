@@ -15,6 +15,10 @@
   --font-action: "Mulish", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .first-menu {
   width: 2rem;
   height: 2rem;
@@ -66,7 +70,6 @@
   color: white;
   font-family: var(--font-action);
   opacity: 0;
-  transition: 0.8s;
 }
 
 .first-menu span::before {
@@ -178,6 +181,7 @@ header {
   top: 0;
   right: -20rem;
   transition: all 1s;
+  z-index: 1;
 }
 
 .show-menu .sidebar {
@@ -333,17 +337,29 @@ header {
   justify-content: space-evenly;
 }
 
+.projects {
+  background: linear-gradient(rgba(15, 15, 15, 0.6), rgba(25, 25, 25, 0.9)),
+    url("/assets/img/texture.jpg");
+  background-size: cover;
+}
+
+.projects h1 {
+  color: white
+}
+
 .cards {
   width: 20em;
   height: 25rem;
   position: relative;
+  margin-bottom: 3rem;
+  
 }
 
 .cards-img-wrapper {
   width: 100%;
   height: 100%;
+  border-radius: 2rem;
   background-color: rgb(26, 26, 26);
-  border-radius: 1rem;
 }
 
 .cards-img-wrapper img {
@@ -352,6 +368,8 @@ header {
   height: 100%;
   opacity: 0.8;
   transition: opacity 0.8s;
+  border-radius: 2rem;
+
 }
 
 .cards:hover .cards-img-wrapper img {
@@ -516,4 +534,64 @@ header {
   font-size: 1.1rem;
   text-transform: uppercase;
   margin-top: 1rem;
+}
+
+footer {
+  width: 100%;
+  height: 7rem;
+  background-color: rgb(19, 19, 19);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-content {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-content p {
+  font-family: var(--font-primary);
+  color:rgb(104, 102, 102);
+  font-size: 1.2rem;
+}
+
+.social-list a{
+  margin: 0 2rem;
+  color:rgb(104, 102, 102);
+  font-size: 1.6rem;
+  transition: .6s;
+}
+
+.social-list a:hover {
+  color:rgba(234, 0, 255, 0.63);
+  font-size: 1.8rem;
+}
+
+.social-list ul {
+  display: flex;
+}
+
+#link-top {
+  position: fixed;
+  right: 3rem;
+  bottom: 3rem;
+  width: 3rem;
+  height: 3rem;
+  background: #ad5389;
+  background: -webkit-linear-gradient(to right, #3c1053, #ad5389);
+  background: linear-gradient(to left, #3c1053, #ad5389);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 2rem;
+  box-shadow: 0 0.1rem 0.6rem #000009;
+  transition: 1s;
+}
+
+#link-top:hover {
+  background: white;
+  color: #ad5389;
 }
