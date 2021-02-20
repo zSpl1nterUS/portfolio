@@ -29,6 +29,13 @@
   </head>
   <body>
     <div class="container">
+      <div class="first-menu">
+        <div class="line" id="line1"></div>
+        <div class="line" id="line2"></div>
+        <div class="line" id="line3"></div>
+        <span>Fechar</span>
+      </div>
+
       <header>
         <div class="img-wrapper">
           <img src="./assets/img/background.jpg" alt="" />
@@ -40,6 +47,170 @@
           <button>Saiba Mais</button>
         </div>
       </header>
+
+      <aside class="sidebar">
+        <navBar>
+          <ul class="menu">
+            <li class="menu-itens"><a href="#" class="menu-links">Home</a></li>
+            <li class="menu-itens">
+              <a href="#" class="menu-links">Conhecimento</a>
+            </li>
+            <li class="menu-itens">
+              <a href="#" class="menu-links">Projetos</a>
+            </li>
+            <li class="menu-itens">
+              <a href="#" class="menu-links">Contato</a>
+            </li>
+            <li class="menu-itens">
+              <a href="#" class="menu-links">Orçamento</a>
+            </li>
+          </ul>
+        </navBar>
+        <div class="social-media">
+          <a href="https://github.com/zSpl1nterUS"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a href="https://www.youtube.com/channel/UCz2V-73WjkV9N6Nwxef9HgA"
+            ><i class="fab fa-youtube"></i
+          ></a>
+          <a href=""><i class="fab fa-twitter"></i></a>
+        </div>
+      </aside>
+
+      <section class="session">
+        <div class="session-header">
+          <h1>Trabalhos</h1>
+        </div>
+        <div class="areas">
+          <div class="works">
+            <div class="areas-header">
+              <i class="fab fa-html5"></i>
+              <h3>HTML</h3>
+            </div>
+            <div class="knowledge-text">
+              <p>lorem30</p>
+            </div>
+          </div>
+          <div class="works">
+            <div class="areas-header">
+              <i class="fab fa-css3-alt"></i>
+              <h3>CSS</h3>
+            </div>
+            <div class="knowledge-text">
+              <p>lorem30</p>
+            </div>
+          </div>
+          <div class="works">
+            <div class="areas-header">
+              <i class="fab fa-js"></i>
+              <h3>JavaScript</h3>
+            </div>
+            <div class="knowledge-text">
+              <p>lorem30</p>
+            </div>
+          </div>
+          <div class="works">
+            <div class="areas-header">
+              <i class="fas fa-pencil-alt"></i>
+              <h3>Design</h3>
+            </div>
+            <div class="knowledge-text">
+              <p>lorem30</p>
+            </div>
+          </div>
+          <div class="works">
+            <div class="areas-header">
+              <i class="fab fa-bootstrap"></i>
+              <h3>Bootstrap</h3>
+            </div>
+            <div class="knowledge-text">
+              <p>lorem30</p>
+            </div>
+          </div>
+          <div class="works">
+            <div class="areas-header">
+              <i class="fab fa-github"></i>
+              <h3>GitHub</h3>
+            </div>
+            <div class="knowledge-text">
+              <p>lorem30</p>
+            </div>
+          </div>
+          <div class="areas-img-wrapper">
+            <img src="./assets/img/knowledge.png" alt="Conhecimentos" />
+          </div>
+        </div>
+      </section>
+
+      <section class="projects">
+        <div class="session-header">
+          <h1>Projetos</h1>
+        </div>
+        <div class="pj">
+          <div class="cards">
+            <div class="cards-img-wrapper">
+              <img src="./assets/img/Zafriel_Logo.png" alt="" />
+            </div>
+            <div class="card-info">
+              <h2>Zafriel</h2>
+              <h3>JavaScript</h3>
+              <p>
+                Bot desenvolvimento totalmente em JavaScript para plataforma da
+                Discord.
+              </p>
+              <button class='btn'>Saiba Mais</button>
+            </div>
+          </div>
+          <div class="cards">
+            <div class="cards-img-wrapper">
+              <img src="./assets/img/Zafriel_Logo.png" alt="" />
+            </div>
+            <div class="card-info">
+              <h2>Zafriel</h2>
+              <h3>Testando 1</h3>
+              <p>Testando 2</p>
+              <button class='btn'>Saiba Mais</button>
+            </div>
+          </div>
+          <div class="cards">
+            <div class="cards-img-wrapper">
+              <img src="./assets/img/Zafriel_Logo.png" alt="" />
+            </div>
+            <div class="card-info">
+              <h2>Zafriel</h2>
+              <h3>Testando 1</h3>
+              <p>Testando 2</p>
+              <button class='btn'>Saiba Mais</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact">
+        <div class="contact-wrapper">
+          <div class="left"></div>
+          <div class="right">
+            <h1>Contato</h1>
+            <form>
+              <div class="input-group">
+                <input type="text" class="field" id="nome" />
+                <label for="nome" class="field-label">Nome</label>
+              </div>
+              <div class="input-group">
+                <input type="text" class="field" id="email" />
+                <label for="email" class="field-label">Email</label>
+              </div>
+              <div class="input-group">
+                <textarea class="field" id="mensagem"></textarea>
+                <label for="mensagem" class="field-label">Mensagem</label>
+              </div>
+              <button type="submit" class="btn btn-submit">Enviar</button>
+            </form>
+          </div>
+        </div>
+      </section>
     </div>
   </body>
+
+  <script src="./assets/scripts/navBar.js"></script>
 </html>
